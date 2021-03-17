@@ -13,7 +13,7 @@ spec:
         version: v1
     spec:
       containers:
-        - name: carts
+      - name: carts
         image: dynatracesockshop/carts:0.6.0
         env:
         - name: JAVA_OPTS
